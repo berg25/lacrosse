@@ -1,0 +1,89 @@
+body{background-color:#ffffff;
+     background-repeat:no-repeat;
+	   background-size:cover;
+     background-image: url(lacrossebackground9.jpg);
+}
+
+
+body{margin:0;
+}
+
+h1{color:#ffffff;
+  text-align: center;
+  font: 25px;
+
+}
+input{color:black;
+}
+
+
+#gallery{
+         position: relative;
+         height:200px;
+}
+
+
+.container{ width:200px;
+            height:200px;
+            display:flex;
+            justify-content: space-between;
+            flex-wrap:
+            border-radius: 10%;
+          }
+
+
+#wrapper{font-size:25px;
+         font-weight:bold;
+		     color:#000000;
+		     font-style: italic;
+         text-align:center;
+		     margin: auto;
+         width: 60%;
+         padding: 10px;
+         }
+
+#wrapper2{font-size:25px;
+                  font-weight:bold;
+         		     color:#ffffff;
+         		     font-style: italic;
+                  text-align:center;
+         		     margin: auto;
+                  width: 60%;
+                  padding: 10px;
+                  }
+
+.container2{
+      width:200px;
+      height:200px;
+      display:flex;
+      justify-content: space-between;
+      flex-direction:row;
+}
+.column{
+  display: flex;
+  flex: column;
+  color:#ffffff;
+}
+
+.column > *{
+  display: flex;
+}
+
+hr{
+  color:black;
+}
+
+
+footer{padding:20px;
+	   font-style: italic;
+	   font-family:"Times New Roman",georgia,serif;
+	   color:#ffffff;
+     font-size:15px;
+     font-weight:bold;
+     font-style: italic;
+     text-align:center;
+     margin: auto;
+     width: 60%;
+     padding: 10px;
+
+    }
